@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.gridbox{ background: #fff; padding: 20px; border-radius: 8px; font-size: 14px; color: #435a70; }
+.gridbox tr th{ color: #435a70; font-size: 15px; text-transform:uppercase; background: #f8fafc; font-weight: normal; }
+.gridbox tr td{ padding-bottom: 10px; }
+.bluetext,.bluetext a{ color: #25acd3;}
+.bluetext a:hover{text-decoration:underline;}
+.iconborder{ border-radius: 20px; padding: 10px;}
+
+.edit-icon{ background:#fff url(../images/edit.png) no-repeat center center; width: 16px; height: 16px; cursor: pointer;margin-right: 7px;}
+.close-icon{ background:#fff url(../images/close.png) no-repeat center center; width: 16px; height: 16px; cursor: pointer;}
+.edit-icon-grey{ background: url(../images/edit-grey.png) no-repeat center center; width: 16px; height: 16px; cursor: pointer;}
+.add-emp{ background: url(../images/add_emp.png) no-repeat center center; width: 17px; height: 17px; cursor: pointer;}
+
+.tablegap tr td{ padding-bottom: 10px; }
+
+.topnav{ border: 0px; background: none; display: inline-block; margin-bottom: 0px; min-height: inherit; margin-top: 10px;}
+.topnav a.dropdown-toggle{ color: #707d83 !important; padding: 0px 25px 5px 0 !important; font-size: 15px; }
+.topnav a.dropdown-toggle:hover{ color: #20aed4 !important; background: none !important; }
+.topnav a.dropdown-toggle:focus{ color: #20aed4 !important; background: none !important; }
+
+.empload-btm{ border: 0px #bdc9d6 solid; padding: 12px 45px; color: #bdc9d6; font-size: 16px; text-transform: uppercase;}
+.empload-btm:hover{ background: none; border: 0px #bdc9d6 solid; padding: 12px 45px; color: #9ba5b0; font-size: 16px; text-transform: uppercase;}
+
+.loadmore-btm{ border: 1px #aab6c1 solid; border-radius: 5px; padding: 12px 45px; color: #fff; font-size: 16px; text-transform: uppercase; width: 100%; background: #aab6c1;}
+.searchinput{ border: 0px; box-shadow: none; border-bottom: 1px #e9ecf2 solid; background: url(../images/search-icon.png) no-repeat center left #fff; padding: 10px 10px 10px 35px !important; height: auto; font-size: 16px; border-radius: 7px; color: #435a70; }
+.searchinput::-moz-placeholder{ color: #435a70;}
+
+.listing-icon{ font-size: 20px; color: #bbc8d5;}
+.listing-active{ font-size: 20px; color: #435a70;}
+.grid-icon{ font-size: 20px; color: #bbc8d5;}
+.grid-active{ font-size: 20px; color: #435a70;}
+
+.employe-details{ border: 1px #e5e5e5 solid; border-radius: 5px; padding: 20px; margin-bottom: 30px; position: relative;}
+.employe-details:hover{border-color:#ccc;}
+.employe_name { color: #435a70; font-family: "proxima_nova_ltbold"; font-size: 18px; text-align: center;}
+.employe_designation {  color: #a9b4c0;  font-size: 16px; text-align: center; border-bottom: 1px #e5e5e5 solid;	padding-bottom: 15px; margin-bottom: 15px;}
+.emp_info{ color: #a9b4c0; font-size: 16px;}
+.emp_info span{ color: #435a70;}
+
+.green-sign,.red-sign{ position:absolute; top: 15px; left: 15px; width: 15px; height: 15px; background: #7ed321; border-radius: 8px;}
+.red-sign{background: #f75b49;}
+.info-sign{ position:absolute; top: 15px; right: 15px; width: 15px; height: auto;}
+.active_inactive_dd{width:100px;min-width:100px;left:50%;margin-left:-53px;}
+.active_inactive_dd li a{text-align:left;font-size:13px; padding: 3px 10px;}
+/* top arrow */
+.active_inactive_dd::after,.active_inactive_dd::before {
+    border:10px solid;
+		border-color:transparent;
+		border-bottom-color: #fff;
+    content: " ";
+    margin-left: -10px;
+    top: -19px;
+		position:absolute;left:50%;
+		width:0;
+		height:0;
+}
+.active_inactive_dd::before {
+    margin-left: -11px;
+    top: -22px;
+		border-bottom-color:#ddd;
+		border-width:11px;
+}
+
+/* == top arrow */
+
+
+.rating-sign{ position:absolute; top: 15px; left: 15px; width: 50px; height: auto; font-size: 16px; font-weight: bold;}
+
+.filebox{ border: 1px solid #e5e5e5; padding: 20px; border-radius: 8px; background: #fff; text-align: center; position: relative; min-height: 140px; box-shadow: 0 0 1px #ccc; line-height: 140px;transition:all ease .3s;}
+.filebox:hover{border-color:#ccc;}
+.filebox.add_file:hover{border-color:#25ACD3;cursor:pointer;}
+.fileclose{ background: url(../images/close.png) no-repeat center center; width: 16px; height: 16px; position: absolute; top: 10px; right: 10px;cursor:pointer;transition:all ease .3s;}
+.filebox:hover .fileclose{transform:rotate(90deg);}

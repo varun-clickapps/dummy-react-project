@@ -1,0 +1,126 @@
+.hr_forms { padding: 15px 25px ; }
+.hr_forms > .row, .hr_forms .tab-content .tab-pane > .row { margin-bottom: 30px; }
+.hr_forms .form-title { font-family: 'OpenSans-Regular'; font-weight: normal; text-transform: uppercase; color: #435a70; letter-spacing: 2px; margin-bottom: 8px; font-size: 14px; }
+
+.hr_forms .form-control { border-color: #e5e5e5; box-shadow: none; padding: 13px 15px; height: auto; }
+.font_ar { font-family: 'Conv_Aceh Darusalam' !important; direction: rtl; color: #777; }
+.hr_forms .drop-downsml { border-color: #e5e5e5; box-shadow: none; padding: 4px; height: auto; }
+.mandatory { color: #f75b49; font-size: 16px; }
+.pageheader h4.custom_breadcrumb { font-size: 24px; margin: 7px 0; font-family: 'OpenSans-Semibold'; }
+.b_c_div { margin: 0 5px; color: #2f363d !important; }
+.add_panel { width: 18px; height: 18px; background: #f75b49; border-radius: 100%; display: inline-block; position: relative; cursor: pointer; margin: 0 7px; }
+.add_panel2 { width: 18px; height: 18px; background: #f75b49; border-radius: 100%; display: inline-block; position: relative; cursor: pointer; margin: 0 7px; }
+.add_panel .plus_ico { background: url(../images/sprite.png) 0 -46px no-repeat; width: 8px; width: 8px; display: block; }
+.add_panel2 .plus_ico { background: url(../images/sprite.png) 0 -46px no-repeat; width: 8px; width: 8px; display: block; }
+/* Radio Buttons */
+.custom_radio { clear: both;margin-top:12px; }
+.custom_radio .rdio-danger input[type="radio"]:checked + label::after { background-color: #f75b49; }
+.custom_radio .rdio input[type="radio"]:checked + label::after { height: 8px; width: 8px; }
+.custom_radio .rdio label::before { width: 16px; height: 16px; }
+.custom_radio .rdio-danger input[type="radio"]:checked + label::before { border-color: #bbb; }
+.custom_radio .rdio label { font-weight: normal; color: #a9b4c0; float: left; margin-bottom: 0px !important; margin-top: -1px; padding-left: 23px; }
+.middle_spacing { padding: 0 10px; }
+/* == Radio Buttons */
+
+.file-upload { margin: 0px; overflow: hidden; position: relative; background: #f75b49; color: #fff; padding: 4px 10px; }
+.file-upload input.upload { cursor: pointer; font-size: 20px; margin: 0; opacity: 0; padding: 0; position: absolute; right: 0; top: 0; }
+#uploadFile { line-height: 28px; }
+.form_divider { height: 1px; background: #e5e5e5; margin-bottom: 30px; }
+.divider_form { height: 1px; background: #e5e5e5; margin: 30px 0; }
+/* Add Groups */
+.add_group .form-group { display: block; }
+.add_group .form-group .form-control { width: 100%; }
+.group_btn { width: 85px; padding-left: 20px; vertical-align: top; }
+.group_btn .btn { padding: 14px 12px; width: 100%; }
+/* == Add Groups */
+.form_btns { text-align: right; }
+.form_btns .btn, .wizard .btn-orange { padding: 8px 12px; min-width: 155px; text-transform: uppercase; font-size: 13px; }
+.btn-complete { padding: 15px 20px 15px 40px !important; min-width: inherit; text-transform: uppercase; font-size: 14px !important; color: #fff; font-weight: bold !important; background: url(../images/right-tick.png) 15px 18px no-repeat #7ed321; }
+.form_btns .btn-orange { margin-right: 18px; }
+.emp_panel .form_btns .btn-orange { margin-right: 15px; }
+.nextbtn { padding: 15px !important; min-width: 155px; text-transform: uppercase; }
+.nextbtn { margin-right: 15px; }
+/* Step Form Setting */
+.hr_step_form .tab-content { border: 0px; }
+.hr_step_form.panel-wizard .wizard { background: none; border: 0px; padding: 0; margin-top: 30px; }
+.step_confirm li.previous { display: none; }
+.hr_steps { list-style: none; padding: 0; margin-bottom: 30px; }
+.hr_steps li { display: inline-block; font-size: 15px; font-family: 'OpenSans-Regular'; text-transform: uppercase; position: relative; }
+.hr_steps li, .hr_steps li a { color: #c0cdda; letter-spacing: 2px; }
+.hr_steps li a { padding-left: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; display: block; }
+.hr_steps li a:hover, .hr_steps li a:focus, .hr_steps li a:active, .nav-disabled-click > li.done > a:hover, .nav-disabled-click > li.done > a:active, .nav-disabled-click > li.done > a:focus { background: none; }
+.hr_steps li a:after, .hr_steps li a:before, .hr_steps li.final_step:before, .hr_steps li.final_step:after { width: 5px; height: 5px; background: #c0cdda; border-radius: 100%; content: ""; display: inline-block; left: 20px; position: absolute; top: 19px; }
+.hr_steps li.final_step:before { right: -25px; left: auto; }
+.hr_steps li.final_step:after { right: -55px; left: auto; }
+.hr_steps li a:before { left: 50px; }
+.hr_steps li strong { background: #c0cdda; height: 40px; width: 40px; display: inline-block; border-radius: 100%; color: #fff; text-align: center; line-height: 40px; font-size: 18px; font-weight: normal; letter-spacing: 0px; margin-right: 10px; position: relative; }
+.hr_steps li.active strong { background: #f75b49; }
+.hr_steps li.done strong { background: #435a70; }
+.hr_steps li.done strong:after { content: url(../images/step_done.png); position: absolute; top: -12px; right: -2px; }
+.hr_steps li.active a { color: #f75b49; }
+.hr_steps li.done a { color: #435a70; }
+/* Step Form Settings */
+
+
+
+/* Emp Details */
+.emp_form.hr_forms { padding: 30px 10px; }
+.emp_left_info { letter-spacing: 2px; }
+.emp_name, .emp_right_info table tr td { color: #435a70; font-size: 32px; font-family: 'OpenSans-Regular'; }
+.emp_designation { color: #919da4; font-size: 24px; }
+.round_img.emp_pic { width: 124px; height: 124px; margin-right: 35px; }
+.emp_pic .edit_profile { height: 30px; width: 30px; top: 3px; right: -3px; }
+.emp_right_info { letter-spacing: 1px; border-left: 1px solid #e5e5e5; padding-left: 27% }
+.emp_right_info table tr td { padding-bottom: 12px; font-size: 15px; }
+.emp_right_info table tr td.job_title { color: #6f7c82; font-size: 15px; min-width: 121px; padding-right: 15px; font-family: 'OpenSans-Regular'; }
+/* tabs setting */
+.emp_tabs > ul > li > a { border: 1px solid #e5e5e5; border-width: 1px 1px 1px 0 !important; color: #6f7c82; font-size: 15px; padding: 12px 5px; }
+.emp_tabs > ul > li:first-child > a { border-left: 1px solid #e5e5e5 !important; }
+.emp_tabs > ul > li.active > a { border-radius: 0; background: #fafbfc !important; font-family: 'OpenSans-Regular'; border-bottom-color: #FAFBFC !important; }
+.emp_tabs > ul > li > a:hover, .emp_tabs > ul > li > a:focus, .emp_tabs > ul > li > a:active { background: #fafbfc; }
+.emp_tabs > ul > li.active > a::before { background: #f75b49; border-radius: 4px 4px 0 0; content: ""; height: 6px; left: 0; position: absolute; right: 0; top: -5px; }
+.emp_tabs .tab-content { background: #fafbfc; min-height: 400px; border: 1px solid #e5e5e5; border-radius: 0 0 6px 6px; border-width: 0 1px 1px 1px; padding: 35px 30px; }
+/* == tabs settings */
+
+/* accordin */
+.empform-title a { color: #f75b49; font-size: 22px; }
+.empform-title a.collapsed:after, .empform-title a:after { content: ""; width: 0; border: 1px solid #f75b49; border-width: 7px; border-color: #f75b49 transparent transparent transparent; position: absolute; margin: 9px; }
+.empform-title a:after { border-color: transparent transparent #f75b49 transparent; margin-top: 2px; }
+/* == accordin */
+
+/* == Emp Details */
+
+.table-heading-normal th { font-weight: normal; }
+.gridbox-border {  background: #fff; border-radius: 8px; padding: 20px; margin-bottom: 15px; }
+.radius8 { border-radius: 5px; border: 1px #e5e5e5 solid; padding: 3px; }
+.inputfull { border-radius: 5px; border: 1px #e5e5e5 solid; padding: 4px 8px; width: 100%; }
+.orangetext { color: #f75b49; }
+
+.modal-footer{ border-top: 0px;}
+
+
+
+/* Login Screen Setting */
+.panel-signin{padding-top:12%;}
+.panel.panel-signin,.panel-footer{border:none;box-shadow:none;background:none;}
+.panel-footer{}
+.panel-signin{width:auto;max-width:520px;}
+.panel-signin .form-control{height:48px;border:none;border-radius:0 4px 4px 0 !important;box-shadow:none;}
+.panel-signin .input-group-addon{background:#fff;border:none;position:relative;}
+.panel-signin .input-group-addon:before{width:1px;background:#a9b4c0;content:"";display:block;position:absolute;right:0px;top:10px;bottom:10px;}
+.panel-signin .forgot_pwd{color:#a9b4c0;position:absolute;right:15px;text-transform:uppercase;font-size:12px;top:16px;z-index:100;}
+.panel-signin .forgot_pwd:hover{color:#25ACD3;}
+.panel-signin .logo{margin-bottom:60px;}
+.panel-signin .login_btn{margin-top:20px;}
+.panel-signin .login_btn .btn-orange{padding:14px 15px;font-size:14px;}
+.panel-signin .glyphicon{top:0;}
+.panel-signin .glyphicon-user_custom,.glyphicon-lock_custom{background:url(../images/sprite.png) no-repeat;display:block;}
+.panel-signin .glyphicon-user_custom{height:20px;width:20px;background-position:0 -70px;}
+.panel-signin .glyphicon-lock_custom{height:25px;width:16px;background-position:0 -110px;}
+/* == Login Screen Setting */
+
+/* organization setting */
+.org_form .empform-title a::after{display:none;}
+.org_form .emp_tabs > ul > li > a{margin-right:0px;}
+.org_form .emp_tabs > ul > li > a:hover{border-bottom-color:#FAFBFC;}
+.OB_setting .col-md-4{margin-bottom:50px;}

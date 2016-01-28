@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>ArbabHR</title>
+<link rel="icon" href="images/favico.ico" type="image/ico" sizes="32x32">
+<link rel="stylesheet" href="css/react-datepicker.css" type="text/css" />
+<link href="css/style.default.css" rel="stylesheet">
+<link href="css/on_grid.css" rel="stylesheet">
+<link href="css/benifits.css" rel="stylesheet">
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+<link href="css/jquery.tagsinput.css" rel="stylesheet">
+<link href="css/time_attandance.css" rel="stylesheet">
+<link href="css/on_boarding.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/toastr.min.css" rel="stylesheet">
+
+
+<script src="scripts/jquery-1.11.3.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/custom.js"></script>
+
+
+<script type="text/javascript" src="scripts/toastr.min.js"></script>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+<!--[if IE 8]> 
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <script type="text/javascript" src="js/html5shiv.js"></script> 
+<![endif]-->
+<!--[if IE]> 
+    <style type="text/css">
+      .panel-signin .input-group-addon:before{bottom:-1px;}
+      .panel-signin .input-group-addon.un_txt:before{bottom:-7px;}
+    </style>
+<![endif]
+<script type="text/javascript">
+$(function(){
+
+ $(window).on('hashchange', function(e){
+        $.getScript( "scripts/custom.js");
+}); 
+
+  
+
+});
+</script>
+-->
+<script type="text/javascript">
+ $(document).ready(function(){
+      $('.tooltips').tooltip('hide');
+  });
+</script>
+<style type="text/css">
+.hide-heath-compo{display: none;}
+#addbenefits .modal-dialog{min-width: 800px;}
+.alwaysShow{display: block !important;}
+.employeeListFilters .dropdown-menu > li > span{display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;cursor:pointer;}
+    .employeeListFilters .dropdown-menu > li > span:hover{color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;}
+.limited_height_DD{max-height:167px;overflow: auto;}
+</style>
+</head>
+
+<body>
+  <div class="mainContainable"></div>
+</body>
+<script src="main.js"></script>
+</html>

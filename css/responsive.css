@@ -1,0 +1,192 @@
+img{max-width:100%;}
+@media screen and (min-width:1201px){
+	.employelist > .col-md-4:nth-child(4n+5){ clear: both;}
+}
+@media screen and (max-width:1024px) and (max-width:780px){
+		.main_calendar .ui-datepicker td a{width:27px;}
+}
+@media screen and (max-width:1340px) {
+	.hr_steps li{width:100%; margin-bottom: 10px;}
+}
+@media screen and (max-width:1024px) {
+	.hr_steps li a{padding-left:13px;}
+	.hr_steps li a::after, .hr_steps li a::before, .hr_steps li.final_step::before, .hr_steps li.final_step::after{display:none;}
+	
+	.payroll_next .btn-orange, .bottom_next .btn-orange{font-size:13px;min-width:100px;}
+	.payroll_next .form-control{height:41px;width:247px;}
+	.edit_form_field{width:auto;}
+	.headerwrapper .header-left .menu-collapse{display:block;}
+}
+@media screen and (max-width:992px){
+	.emp_right_info{border-left:0px;padding-left:19%;}
+}
+@media screen and (max-width:900px){
+	.form-style textarea.form-control{height:102px;}
+	.box{min-height:400px;}
+	.main_calendar .ui-datepicker td a{width:25px;height:25px;line-height:22px;}
+	.breif_status ul li.col-lg-3{margin-bottom:15px;}
+	.emp_tabs .nav-tabs > li{float:left;width:50%;}
+	.emp_tabs .nav-tabs > li > a{border-width:1px 1px 0 !important;border-radius:0px;margin-bottom:0px;padding-top:7px;padding-bottom:7px;}
+	.emp_tabs > ul > li.active > a::before{border-radius:0;right:-1px;left:-1px;}
+}
+@media screen and (max-width:768px){
+	.radio_wrapper {margin: 26px 0;}
+	.headerwrapper .header-left .menu-collapse{display:block;}
+	.form_btns{text-align:right;}
+/*	.hr_steps li a strong{position:absolute;left:0px;}
+	.hr_steps li a{position:relative;padding-left:53px;display:block;width:216px;}*/
+}
+@media screen and (max-width:767px){
+	.box{min-height:100px;}
+	.custom_heading > .pull-right{float:none !important;clear:both;padding-top:14px;}
+	.custom_heading > .pull-right .btn-orange{margin-left:0px !important;}
+	.info_title h1{position:static;float:left;}
+	.custom_heading.info_title > .pull-right{float:right !important;margin-top:-27px;padding-top:0px;}
+}
+@media screen and (max-width:640px){
+	.hr_forms .col-xx-12{width:100%;margin-bottom:10px;}
+	.hr_forms > .row{margin-bottom:15px;}
+	.payroll_next .form-control {font-size: 14px;width: 194px;background-position:10px 10px;height:37px;}
+	.payroll_next .btn-orange, .bottom_next .btn-orange{margin-right:0px;}
+}
+@media screen and (max-width:600px){
+	.form_btns .btn, .wizard .btn-orange{min-width:30px;padding:8px 11px;margin-right:10px;}
+	.box,.emp_tabs .tab-content{padding-left:15px;padding-right:15px;}
+	.empform-title a{font-size:18px;}
+	.divider_form{margin:14px 0;}
+	.emp_name, .emp_right_info table tr td{font-size:22px;}
+	.emp_designation,.emp_right_info table tr td{font-size:15px;}
+	.monthly_details{margin:0px -15px;}
+	.monthly_details ul{float:none !important;width:100%;display:table;}
+	.monthly_details ul li{display:table-cell;margin-left:0px;margin-right:0px;}
+	.box-title{margin-right:-15px;margin-left:-15px;}
+	
+}
+@media screen and (max-width:565px){
+	.filter_length{width:auto;}
+	.hr_steps li{width:auto;display:block;font-size:14px;margin-bottom:10px;}
+	.employelist .col-xx-12{width:100%;}
+	.emp_tabs .panel-body{padding-left:0;padding-right:0;}
+	.emp_tabs .form_btns{padding:0 15px;}
+	.step_confirm{float:none !important;clear:both;}
+	.step_confirm li.pull-right.finish{float:left !important;}
+	.payroll_next .btn-orange, .bottom_next .btn-orange{margin-left:0px;margin-right:10px;margin-top:10px;}
+	/*.step_confirm li.pull-right.next{margin-top:-45px;}*/
+	.headerwrapper .header-right .form-search .form-control{width:110px;}
+}
+@media screen and (max-width:480px){
+	.welcome_video{width:100%;}
+	.box-title{font-size:16px;}
+	.form_btns .btn{min-width:70px;margin-right:10px;}
+	.hr_forms .form-title{font-size:13px;}
+	.emp_panel h3{font-size:17px;margin-bottom:10px;}
+	.monthly_details ul li span{margin-left:0px;margin-right:0px;}
+	.time_att_tabs li{margin-right:9px;}
+	
+	.headerwrapper .header-right .btn-group.btn-group-notification,.headerwrapper .header-right .form-search{margin-right:0;}
+	.form-control{font-size:13px;}
+	.custom_heading.info_title > .pull-right{float:none !important;margin-top:10px;text-align:center;}
+	.wid_adj{width:auto;}
+	.info_title h1{float:none;}
+}
+@media screen and (max-width:400px){
+	.people_wrapper .col-xx-12{width:100%;}
+	.pull-right.checkstatus{ margin-top: 5px; width: 100%;}
+	.hr_forms{padding:5px 0;}
+	.footer_links{text-align:center;font-size:14px;}
+	.footer_links .pull-left,.footer_links .pull-right{float:none !important;}
+	.footer_links .pull-left{margin-bottom:10px;}
+	.group_btn .btn{padding-top:5px;padding-bottom:5px;}
+	.hr_forms .form-control{padding-top:6px;padding-bottom:5px;}
+	.group_btn{padding-left:10px;}
+	.breif_status ul li{text-align:left;}
+	.rtl .breif_status ul li{text-align:right;}
+	.breif_status ul.row{margin-left:0;margin-right:0;}
+	.breif_status ul li.col-xx-12{width:100%;}
+	.breif_status ul li span{float:right;}
+	.rtl .breif_status ul li span{float:left;}
+	.emp_tabs .nav-tabs > li{float:none;width:auto;}
+	.emp_right_info{padding-left:15px;}
+	.load_more a{font-size:14px;padding:13px 15px;min-width:100px;}
+	.emp_left_info td{float:left;width:100%;text-align:center;}
+	.round_img.emp_pic{margin-left:0px;margin-right:0px;}
+	.orange_title{font-size:19px;}
+	.panel-signin .panel-body{padding:15px;}
+	.panel-signin .logo img{width:70%;}
+	.headerwrapper .header-right .form-search .form-control{font-size:13px;width:80px;}
+	
+}
+@media screen and (max-width:360px){
+	
+	.headerwrapper .header-right .btn-group.profile_btn{margin:13px 13px 0;}
+	.col-xx-12{width:100%;}
+	.form_btns .btn, .wizard .btn-orange{font-size:11px;padding: 10px 20px 10px;}
+	.breif_status ul li, .monthly_details ul li{font-size:13px;}
+	.breif_status ul li span, .monthly_details ul li span{font-size:16px;}
+	.time_att_tabs li{font-size:13px;}
+	.fc-header-title h2{font-size:20px;}
+	.fc-header tr td{display:table-cell;width:auto;}
+	.fc-header-title{text-align:center;display:block !important;}
+	.panel-signin .panel-body{padding:0px;}
+	.panel-signin .logo{margin-bottom:35px;}
+	.headerwrapper .header-right .form-search .form-control{width:30px;padding:0;font-size:0px;}
+	.hr_steps li{font-size:11px;}
+}
+
+
+    /* Large desktop */
+    @media (min-width: 1200px) { ... }
+     
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) { 
+	
+	.form_btns .btn, .wizard .btn-orange { min-width: 85px !important; }
+	.pageheader h4{ padding: 10px 0 !important; margin: 0px !important;}
+	.table-responsive th{ font-size: 13px;}
+	
+	
+	 }
+	 
+	 @media (min-width: 1024px) and (max-width: 1200px) { 
+	
+	.people_designation1 { color: #a9b4c0; font-size: 16px; min-height: 45px; }
+	.people_name { color: #435a70; font-size: 18px; font-family: 'proxima_nova_ltbold'; min-height: 52px; }
+	
+	
+	 }
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { 
+	
+	
+	
+	 }
+     
+    /* Landscape phones and down */
+    @media (max-width: 640px) {
+		
+		/*.borderder_pan{border:1px solid #e5e5e5;border-width:0 1px 0 1px;padding:24px 0px !important;}*/
+		.headerwrapper .header-right .btn-group.profile_btn{margin:13px 0px 0 0px !important;}
+		.topnav{ border: 0px; background: none; display: inherit;}
+		footer { position: relative; left: 0; right: 0; bottom: 0; }
+		.pageheader h4{ padding: 10px 0 !important; margin: 0px !important; font-size: 16px;}
+		.pageheader .pull-right{ float: left !important;}
+		.view_data { margin-top: 0px; padding-right: 15px; padding-left: 15px; }
+		.panel-signin{padding-top:0px;}
+		.panel-signin .panel-body, .panel-signup .panel-body { padding: 10px; }
+		.mpaddingR0{ padding-right: 0px !important;}
+		.mpaddingL0{ padding-left: 0px !important;}
+		.mpaddingT0{ padding-top: 0px !important;}
+		.mpaddingB0{ padding-bottom: 0px !important;}
+		
+		.mmarginR0{ margin-right: 0px !important;}
+		.mmarginL0{ margin-left: 0px !important;}
+		.mmarginT0{ margin-top: 0px !important;}
+		.mmarginB0{ margin-bottom: 0px !important;}
+		
+		.empload-btm{ border: 0px #bdc9d6 solid; padding: inherit; color: #bdc9d6; font-size: 16px; text-transform: uppercase;}
+		.empload-btm:hover{ background: none; border: 0px #bdc9d6 solid; padding: inherit; color: #9ba5b0; font-size: 16px; text-transform: uppercase;}
+		
+		.box-title, .box-inner-title { color: #435a70; font-size: 16px; padding: 15px 5px; border-radius: 4px 4px 0 0; font-family: 'proxima_nova_ltbold'; }
+		
+		 }

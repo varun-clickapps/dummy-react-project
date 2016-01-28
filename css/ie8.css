@@ -1,0 +1,46 @@
+/* bootstrap css starts here */
+.col-md-8 { width: 66.6667% !important; }
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 { float: left; }
+.col-lg-4 { width: 33.3333% !important; }
+.col-md-4 { width: 33.33333333%; }
+.col-md-3 { width: 25%; }
+.col-lg-5 { width: 41.6667%; }
+.col-md-6 { width: 50%; }
+.col-md-2 { width: 16.66666667%; }
+.col-lg-9, .col-md-9 { width: 75%; float: left; }
+.col-lg-3, .col-md-3 { width: 25%; float: left; }
+.col-lg-7, .col-md-7 { width: 58.3333%; }
+.col-lg-8 {width: 66.6667%;}
+.col-lg-1, .col-md-1 { width: 8.33333%; }
+.col-lg-offset-1 { margin-left: 8.33333%; }
+.container { width: 1170px; }
+/* bootstrap css ends here */
+
+.navbar-toggle { display: none; }
+.navbar-header { float: left; }
+.collapse { display: block;border:none; }
+.topnav .nav > LI{float:left;}
+.emp_tabs .nav{display:table;margin-bottom:-8px;}
+.emp_tabs .nav > LI{display:table-cell;}
+.collapse.panel-collapse{overflow:hidden;display:none;}
+.collapse.in.panel-collapse{overflow:visible;display:block;}
+
+/* custom Styles */
+.panel-signin .form-control{line-height:40px !important;}
+.headerwrapper .header-right .btn-group .btn .badge { margin-left: -18px; }
+.icons_panel { opacity: 0.5; filter: Alpha(opacity=00); /* IE8 and earlier */ }
+.work_details:hover .icons_panel { opacity: 1; filter: Alpha(opacity=100); }
+.table-action a { border: 1px solid #ddd; border-radius: 100%; display: inline-block; height: 40px; position: relative; width: 40px; }
+.iconborder { background-color: transparent !important; border: none; }
+.btn-orange{background-color:#f75b49 !important;}
+.edit-icon,.close-icon,.iconborder{margin:11px 11px 0 11px;}
+.iconborder{padding:0px;}
+.custom_arrow{background-image:none;}
+.headerwrapper .header-right{border-bottom:1px solid #eee;}
+.rdio LABEL:before{display:none;}
+input[type=radio]{position:absolute;margin-left:5px;}
+.table-responsive table tr:hover .icon-round{background-color:transparent;}
+.hr_forms .form-control{padding:13px 11px;}
+/* == Custom Styles */
+
+.hr_steps li strong,.btn,.headerwrapper .header-right .btn-group .btn .badge,.icon-round,.table-action a,.green-sign,.red-sign,.employe-details,.gridbox,.add_panel,.box{ behavior: url(css/PIE.htc);}

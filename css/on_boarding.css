@@ -1,0 +1,79 @@
+img { max-width: 100%; }
+/* Header */
+.edit_profile, .checkstatus, .people_box, .list_status { transition: all ease .3s; }
+.onboard_header { padding: 25px 30px; background: #292e31; }
+.onboard_content .box { margin-bottom: 30px; }
+/* == Header */
+/* Welcome Content */
+.pic_boundry{height:96px;width:96px;}
+.white_bg { min-height: 400px; background: #fff; margin-bottom: 30px; padding: 50px 0; }
+.welcome_video { display: inline-block; width: 450px; border-radius: 10px; overflow: hidden; }
+.welcome_content { text-align: center; }
+.welcome_content h1 { font-family: 'OpenSans-Regular'; font-size: 31px; color: #435a70; margin: 28px 0 20px; }
+.welcome_content > p { color: #8e97a1; line-height: 32px; font-size: 20px; font-family: 'OpenSans-Regular'; max-width: 680px; margin: 0 auto 54px; }
+/* == Welcome Content */
+/* Getting Started */
+.get_started { text-align: center; }
+.get_started h2 { font-family: 'OpenSans-Regular'; font-size: 48px; color: #f75b49; margin: 28px 0 20px; }
+.get_started > p { color: #6f7c82; line-height: 34px; font-size: 22px; font-family: 'OpenSans-Regular'; max-width: 680px; margin: 0 auto 54px; }
+/* == Getting Started */
+
+/* content section */
+.onboard_content .box-title { text-transform: uppercase; }
+.list_status { border-radius: 100%; display: inline-block; height: 32px; width: 32px; position: relative; margin-top: -3px; transform: scale(0.9, 0.9); }
+.listing_bordered > li:hover .list_status { transform: scale(1, 1); }
+.status_success { background: #7ed321; }
+.status_success:hover,.status_success:focus,.status_success:active{background:#66b510;}
+.status_danger { background: #f75b49; }
+.status_danger:hover,.status_danger:focus,.status_danger:active { background: #d03625; }
+.listing { list-style: none; padding: 0; }
+.listing > li { position: relative; }
+.listing_with_ico > li { padding: 20px 10px 20px 61px; width: 100%; display: inline-block; }
+.listing_with_ico > li:first-child { padding-top: 0px; }
+.listing_with_ico > li:first-child .list_ico { top: -7px; }
+.list_ico { position: absolute; left: 10px; top: 13px; }
+.list_title { font-size: 18px; color: #435a70; font-family: 'OpenSans-Regular'; }
+.listing_bordered > li { border-bottom: 1px solid #e5e5e5; }
+.listing_bordered > li:last-child { border-bottom: 0px; padding-bottom: 0; }
+.list_content { color: #a9b4c0; font-size: 15px; line-height: 20px; }
+.listing_with_desc .list_title { margin-bottom: 7px; }
+.listing_with_desc .list_ico { top: 27px; }
+.listing_with_ico.listing_with_desc > li:first-child .list_ico { top: 7px; }
+.view_data { margin-top: 33px; padding-right: 15px; padding-left: 15px; }
+/* == content section */
+
+/* check list */
+.checkstatus { font-family: 'OpenSans-Regular'; font-size: 17px; margin-top: 1px; padding-left: 23px; }
+.pending_sta, .pending_sta:hover { color: #f75b49; background: url(../images/pending_ico.png) 0 2px no-repeat; }
+.done_sta, .done_sta:hover { color: #74c21e; background: url(../images/status_done.png) 0 3px no-repeat; }
+.check_progress { margin: 40px 10px 32px; position: relative; }
+.checklist.box { min-height: 761px; }
+.check_progress .progress-bar-success { background: #7ed321; }
+.progress.check_progress { overflow: visible; }
+.check_progress .tooltip { margin-top: -34px; left: 36%; opacity: 1; }
+/* == Check list */
+
+/* People should know */
+
+.people_wrapper { margin-bottom: -28px; }
+.people_box { text-align: center; border: 1px solid #e5e5e5; border-radius: 4px; padding: 20px; margin-bottom: 30px; }
+.people_box:hover { border-color: #cfcfcf; box-shadow: 0 0 7px #ddd; }
+.people_thm { margin: 20px 0;width:96px;height:96px;overflow:hidden;border:1px solid #ddd; }
+.people_thm img{min-height:96px;min-width:96px;}
+.people_name { color: #8e97a1; }
+.people_name { color: #435a70; font-size: 18px; font-family: 'OpenSans-Regular'; }
+.people_designation { color: #a9b4c0; font-size: 16px; }
+.people_designation1 { color: #a9b4c0; font-size: 16px; }
+.btn-people { padding: 10px 15px; font-family: 'OpenSans-Regular'; width: 100%; margin-top: 20px; }
+/* == People Should Know */
+
+
+/* working culture */
+.about_working { line-height: 30px; font-size: 18px; color: #8e97a1; }
+.about_working > p { margin-bottom: 22px; font-family: 'OpenSans-Regular'; }
+.about_working h3 { font-size: 28px; color: #435a70; margin-bottom: 25px; }
+.important_links ul > li { margin-bottom: 25px; background: url(../images/link_ico.png) 0 2px no-repeat; padding-left: 40px; }
+.important_links ul > li.video_link { background: url(../images/video_ico.png) 0 3px no-repeat; }
+.important_links ul > li > a { color: #25acd3; font-size: 18px; line-height: 24px; }
+.important_links ul > li > a:hover{text-decoration:underline;}
+/* == Working Culture */
